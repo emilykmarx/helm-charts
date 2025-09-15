@@ -4008,8 +4008,8 @@ prometheus:
     ## Image of Prometheus.
     ##
     image:
-      registry: quay.io
-      repository: prometheus/prometheus
+      registry: my
+      repository: prometheus
       tag: v3.5.0
       sha: ""
       pullPolicy: IfNotPresent
